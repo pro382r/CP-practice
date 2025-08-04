@@ -20,7 +20,7 @@ int main() {
 
         m = max(A,B);
 
-        for(i=0; i<m; i++)
+        for(i=0; i<m; i++) // or use while(a > 0 && b > 0)
         {
             if(a%2==0 && k == 0)
             {
@@ -44,7 +44,7 @@ int main() {
 
             if(a==0){
                 cout << "Optimus Prime" << endl;
-                break;
+                break; // return 0 or nothing can show diffrent result.
             }else if (b==0){
                 cout << "Megatron" << endl;
                 break;
