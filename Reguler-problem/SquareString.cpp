@@ -1,5 +1,5 @@
 //https://codeforces.com/problemset/problem/1619/A
-// not 100%
+
 
 #include <bits/stdc++.h>
 using namespace std;
