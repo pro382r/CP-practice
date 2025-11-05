@@ -15,6 +15,8 @@ int main() {
     cin >> as;
 
     int n = as.size();
+
+    //b1.clear(); b2.clear();
     
     if(n%2==1)
     {
@@ -25,17 +27,19 @@ int main() {
 
         for(i=0; i<k; i++)
         {
-            b1 = as[i];
+            b1 += as[i];
         }
 
         for(i=k; i<n; i++)
         {
-            b2 = as[i];
+            b2 += as[i];
         }
 
         if(b1 == b2){
             cout << "YES" << endl;
         }else cout << "NO" << endl;
+
+        
     }
   }
     return 0;
